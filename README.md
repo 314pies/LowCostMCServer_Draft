@@ -1,6 +1,6 @@
 # Low-Cost-MC-Server (Draft)
 
-## Deal with the Cold Start
+## Dealing with the Cold Start
 1. Response with [
 DEFERRED_CHANNEL_MESSAGE_WITH_SOURCE](https://discord.com/developers/docs/interactions/receiving-and-responding#interaction-response-object-interaction-callback-type) code first, then later edit using [Edit Original Interaction Response](https://discord.com/developers/docs/interactions/receiving-and-responding#edit-original-interaction-response)
 (Request some testing/research to confirm whether this work with Aws Lambda, may complicate the project?)
